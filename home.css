@@ -1,0 +1,377 @@
+* {
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+    scroll-behavior: smooth;
+    letter-spacing: 3px;
+}
+
+body {
+    font-family: "Lato", sans-serif;
+    padding: 0%;
+    margin: 0%;
+    border: none;
+}
+
+
+#logo {
+    height: 24px;
+    width: 120px;
+}
+
+.logo-container {
+    padding-left: 1rem;
+}
+
+nav {
+    display: flex;
+    position: relative;
+    height: 40px;
+    max-width: 100%;
+    align-items: center;
+    justify-content: space-between;
+    background-color: none;
+    padding-top: 20px
+}
+
+.center-nav {
+    display: flex;
+    height: 50px;
+    font-size: 2rem;
+    padding-bottom: 2vh;
+}
+
+.menu {
+    list-style: none;
+    justify-content: center;
+    align-items: center;
+    margin: 1rem;
+    display: flex;
+}
+
+.nav-items {
+    padding: 1rem;
+    margin: 4px;
+    padding-bottom: 2vh;
+}
+
+.nav-icons {
+    padding: 8px;
+    margin: -3px;
+}
+
+.right-nav img {
+    height: 20px;
+    width: 20px;
+}
+
+.nav-items:hover {
+    background-color: rgb(187, 232, 232);
+    cursor: pointer;
+    transition: background-color 0.3s ease;
+    border-radius: 5px;
+
+}
+
+.main {
+    background-image: url(images/bg1.avif);
+    background-size: cover;
+    background-position: center;
+
+}
+
+
+.box {
+    text-align: center;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    width: 100%;
+    height: 92vh;
+    flex-direction: column;
+    padding-top: 5vh;
+    gap: 50vh;
+}
+
+
+
+.txt a {
+    color: rgb(43, 40, 40);
+    font-size: large;
+    font-weight: 700;
+    text-align: center;
+
+
+}
+
+.buttons {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+    padding-bottom: 119px;
+    gap: 21px;
+
+}
+
+.btn {
+    padding-left: 73px;
+    padding-right: 53px;
+    padding-top: 8px;
+    padding-bottom: 8px;
+    border-radius: 5%;
+}
+
+.btn-order {
+    background-color: white;
+    color: rgb(50, 50, 50);
+    border-width: 1px;
+    border-radius: 5px;
+    font-weight: bolder;
+}
+
+.btn-demo {
+    background-color: rgb(26, 24, 24);
+    color: white;
+    border-radius: 5px;
+}
+
+.Model-Y {
+    background-image: url(images/bg2.avif);
+    background-size: cover;
+    background-position: center;
+
+}
+
+.Model-X {
+    background-image: url(images/bg3.avif);
+    background-size: cover;
+    background-position: center;
+
+}
+
+.ModelS {
+    background-image: url(images/bg4.avif);
+    background-size: cover;
+    background-position: center;
+
+}
+
+.CYBER {
+    background-image: url(images/bg5.avif);
+    background-size: cover;
+    background-position: center;
+
+}
+
+.PANELS {
+    background-image: url(images/bg6.avif);
+    background-size: cover;
+    background-position: center;
+    color: white;
+
+}
+
+.ROOF {
+    background-image: url(images/bg7.avif);
+    background-size: cover;
+    background-position: center;
+
+}
+
+.POWER {
+    background-image: url(images/bg8.avif);
+    background-size: cover;
+    background-position: center;
+
+}
+
+.ACESS {
+    background-image: url(images/bg9.avif);
+    background-size: cover;
+    background-position: center;
+
+}
+
+#cybr-logo {
+    height: 42vh;
+    width: 38vh;
+    padding-top: 17vh;
+}
+
+.cyber-order {
+    background-color: rgb(24, 23, 23);
+    color: white;
+    border-width: 1px;
+    border-radius: 5px;
+    font-weight: bolder;
+}
+
+.footer {
+    background-color: black;
+    color: white;
+    padding: 0px 5vw 4vw;
+}
+
+
+.underline {
+    color: white;
+    text-decoration: underline;
+    cursor: pointer;
+}
+
+.footer .box p {
+    font-size: 13px;
+    padding-right: 18%;
+    padding-left: 10%;
+    padding-top: 3px;
+    padding-bottom: 3px;
+}
+
+.box h1 {
+    font-size: 2.4rem;
+}
+
+.footer .box {
+    gap: 1rem;
+}
+
+.footer {
+    background-color: black;
+    color: white;
+    padding: 0px 5vw 4vw;
+}
+
+.nav-footer {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 50px;
+    font-size: 1rem;
+    padding-bottom: 2rem;
+}
+
+.menu-footer {
+    list-style: none;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin: 1rem;
+}
+
+.footnav-items {
+    padding: 1rem;
+    margin: 4px;
+    cursor: pointer;
+    font-size: 11px;
+
+}
+
+
+
+
+@media only screen and (max-width: 768px) {
+    .menu {
+        display: none;
+        flex-direction: column;
+        width: 100%;
+        background-color: white;
+    }
+
+    .menu-icon {
+        display: block;
+        cursor: pointer;
+        padding-right: 20px;
+    }
+
+    .navicon {
+        background-color: #333;
+        display: block;
+        height: 2px;
+        position: relative;
+        transition: 0.2s ease-out;
+        width: 18px;
+    }
+
+    .navicon:before,
+    .navicon:after {
+        background: #333;
+        content: '';
+        display: block;
+        height: 100%;
+        position: absolute;
+        transition: all .2s ease-out;
+        width: 100%;
+    }
+
+    .navicon:before {
+        top: 5px;
+    }
+
+    .navicon:after {
+        top: -5px;
+    }
+
+    input[type=checkbox] {
+        display: none;
+    }
+
+    input[type=checkbox]:checked~.menu {
+        display: flex;
+    }
+
+    input[type=checkbox]:checked+.menu-icon .navicon {
+        background: transparent;
+    }
+
+    input[type=checkbox]:checked+.menu-icon .navicon:before {
+        transform: rotate(-45deg);
+    }
+
+    input[type=checkbox]:checked+.menu-icon .navicon:after {
+        transform: rotate(45deg);
+    }
+
+    .nav-bar {
+        display: flex;
+        flex-direction: row;
+        align-items: center;
+        justify-content: space-between;
+    }
+
+    .box {
+        height: auto;
+        padding-top: 2vh;
+        gap: 20vh;
+    }
+
+    .buttons {
+        flex-direction: column;
+        gap: 10px;
+    }
+
+    .footer .box p {
+        padding-right: 5%;
+        padding-left: 5%;
+    }
+
+
+    .nav-footer {
+        flex-direction: column;
+        align-items: center;
+        padding-left: 0;
+        padding-bottom: 1rem;
+    }
+
+    .menu-footer {
+        flex-direction: column;
+        align-items: center;
+        width: 100%;
+    }
+
+    .footnav-items {
+        font-size: 14px;
+        padding: 10px 0;
+        width: 100%;
+        text-align: center;
+    }
+}
